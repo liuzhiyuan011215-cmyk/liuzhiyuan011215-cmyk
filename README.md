@@ -12,11 +12,11 @@
 
 | 직무에서 필요한 역량 | 이를 보여주는 프로젝트 |
 |---|---|
-| 협업·오픈소스 기여 | [DouDuo PR #3](https://github.com/81199000/DouDuo/pull/3) 원작자 병합, [campuse_place PR #2](https://github.com/skyhy0228/campuse_place/pull/2) 팀 프로젝트 기여 |
+| 협업·오픈소스 기여 | DouDuo [PR #3](https://github.com/81199000/DouDuo/pull/3)·[PR #5](https://github.com/81199000/DouDuo/pull/5) 원작자 병합, [campuse_place PR #2](https://github.com/skyhy0228/campuse_place/pull/2) 팀 프로젝트 기여 |
 | LLM을 서비스에 붙이고 **환각을 검증**하는 설계 | [CardMaker](https://github.com/liuzhiyuan011215-cmyk/CardMaker) (사전 대조 검증), [report2excel](https://github.com/liuzhiyuan011215-cmyk/report2excel) (금액 재계산·단가 이상 탐지) |
 | **실시간 음성** AI (스트리밍, 재연결) | [valorant-translator](https://github.com/liuzhiyuan011215-cmyk/valorant-translator), [translator-ultimate](https://github.com/liuzhiyuan011215-cmyk/translator-ultimate), [live-translate](https://github.com/liuzhiyuan011215-cmyk/live-translate) |
 | 데이터 정제·정규화 | [knut-campus-guide](https://github.com/liuzhiyuan011215-cmyk/knut-campus-guide) (250건 → 178곳, 합계 검증) |
-| 자동화·배포 (GitHub Actions / Pages) | [ai-briefing](https://github.com/liuzhiyuan011215-cmyk/ai-briefing), 웹 과제 5건 Pages 배포 |
+| 자동화·배포 (GitHub Actions / Pages) | [ai-briefing](https://github.com/liuzhiyuan011215-cmyk/ai-briefing), 웹 프로젝트·과제 5건 Pages 배포 |
 | 테스트로 품질 보증 | CardMaker **pytest 238개** (API Key 없이 실행 가능) |
 
 ## 🛠 기술 스택
@@ -35,7 +35,7 @@
 
 - **문제**: LLM으로 단어 뜻을 뽑으면 그럴듯한 오답(환각)이 섞여 그대로 암기하게 됨
 - **해결**: OCR → LLM 추출 → **국립국어원 krdict · ECDICT · 위키낱말사전 · PanLex로 대조 검증** → 통과한 카드만 자동 선택
-- **규모**: 커밋 30개 · 테스트 238개 · Windows/macOS · 한/중/영 UI · CLI와 MCP 서버도 제공
+- **규모**: 커밋 30여 개 · 테스트 238개 · Windows/macOS · 한/중/영 UI · CLI와 MCP 서버도 제공
 - **본인 역할**: 개인 프로젝트(기획·설계·구현·테스트·문서 전부). 심사 면담 후 Windows 호환·오프라인 사전 3종·오탐 방지 수정을 직접 진행
 
 👉 [저장소 보기](https://github.com/liuzhiyuan011215-cmyk/CardMaker)
@@ -77,7 +77,8 @@
 
 | 저장소 | 원본 | 내가 한 일 |
 |---|---|---|
-| [DouDuo](https://github.com/liuzhiyuan011215-cmyk/DouDuo) | [81199000/DouDuo](https://github.com/81199000/DouDuo) (iOS 동영상 클라이언트) | **원작자 저장소에 PR 2건 반영** (v1.3.10·v1.3.11 릴리스 노트에 기여자로 기재)<br>[#3](https://github.com/81199000/DouDuo/pull/3) 병합: 배속 고정, 백그라운드 재생·잠금화면 컨트롤, 라이브 방송 선택 목록<br>[#5](https://github.com/81199000/DouDuo/pull/5) 일부 반영: 배속 전환 시 소리 끊김을 막는 독립 오디오 엔진(약 850줄)을 제안 → 원작자가 지적된 버그 2건(수동 일시정지 무시, 잠금화면 배속 표시 오류)만 반영하고 엔진은 보류 |
+| [DouDuo](https://github.com/liuzhiyuan011215-cmyk/DouDuo) | [81199000/DouDuo](https://github.com/81199000/DouDuo) (iOS 동영상 클라이언트) | **원작자 저장소에 PR 2건 병합** (릴리스 노트에 기여자로 기재)<br>[#3](https://github.com/81199000/DouDuo/pull/3) v1.3.10: 배속 고정, 백그라운드 재생·잠금화면 컨트롤, 라이브 방송 선택 목록<br>[#5](https://github.com/81199000/DouDuo/pull/5) v1.3.13: 배속 전환 시 소리가 끊기지 않는 **독립 오디오 엔진**(약 850줄). 처음(v1.3.11)엔 위험 지적으로 보류 → 지적된 문제를 고쳐 다시 제출 → 병합, 현재도 원작자의 메인 코드에서 사용 중 |
+
 ---
 
 ## 📫 연락처
