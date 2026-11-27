@@ -1,8 +1,8 @@
 # 안녕하세요, LIU ZHIYUAN(유지원)입니다 👋
 
 **AI 응용 개발자**를 목표로 하는 한국교통대학교 소프트웨어전공 학생입니다.
-대규모 언어 모델(LLM)·음성 인식·OCR을 **실제로 매일 쓰는 도구**로 만드는 일을 합니다.
-유학생으로서 직접 겪은 불편(단어 암기, 게임 속 의사소통)에서 문제를 찾고, 끝까지 배포해서 씁니다.
+대규모 언어 모델(LLM)·OCR·자동화을 **실제로 매일 쓰는 도구**로 만드는 일을 합니다.
+유학생으로서 직접 겪은 불편(단어 암기, 보고서 정리)에서 문제를 찾고, 끝까지 배포해서 씁니다.
 
 > 🇨🇳 中国留学生 · 한국어 / 中文 / English · 目标岗位：AI 应用开发
 
@@ -13,11 +13,11 @@
 | 직무에서 필요한 역량 | 이를 보여주는 프로젝트 |
 |---|---|
 | LLM을 서비스에 붙이고 **환각을 검증**하는 설계 | [CardMaker](https://github.com/liuzhiyuan011215-cmyk/CardMaker) (사전 대조 검증), [report2excel](https://github.com/liuzhiyuan011215-cmyk/report2excel) (금액 재계산·단가 이상 탐지) |
-| **실시간 음성** AI (스트리밍, 재연결) | [valorant-translator](https://github.com/liuzhiyuan011215-cmyk/valorant-translator) |
 | 데이터 정제·정규화 | [knut-campus-guide](https://github.com/liuzhiyuan011215-cmyk/knut-campus-guide) (250건 → 178곳, 합계 검증) |
 | 협업·오픈소스 기여 | DouDuo [PR #3](https://github.com/81199000/DouDuo/pull/3)·[PR #5](https://github.com/81199000/DouDuo/pull/5) 원작자 병합, [campuse_place PR #2](https://github.com/skyhy0228/campuse_place/pull/2) 팀 프로젝트 기여 |
 | 자동화·배포 (GitHub Actions / Pages) | [ai-briefing](https://github.com/liuzhiyuan011215-cmyk/ai-briefing), 웹 과제 4건 Pages 배포 |
 | 테스트로 품질 보증 | CardMaker **pytest 238개** (API Key 없이 실행 가능) |
+| **실시간 음성** AI (스트리밍, 재연결) | [valorant-translator](https://github.com/liuzhiyuan011215-cmyk/valorant-translator) |
 
 ## 🛠 기술 스택
 
@@ -57,10 +57,10 @@
 ### 3. 개인 프로젝트
 | 프로젝트 | 내용 | 기술 |
 |---|---|---|
-| [valorant-translator](https://github.com/liuzhiyuan011215-cmyk/valorant-translator) | 게임 중 팀원 음성 → 실시간 중국어 이중 자막, F8 누르고 말하면 영어/한국어로 번역 | Python, Gemini Live API, VB-Cable, 오버레이 UI |
 | [report2excel](https://github.com/liuzhiyuan011215-cmyk/report2excel) | 가게 영업 보고서(사진/PDF) → 수식·자동 검증이 들어간 Excel | Python, 멀티모달 LLM, SQLite, openpyxl, PySide6 |
 | [ai-briefing](https://github.com/liuzhiyuan011215-cmyk/ai-briefing) | 매일 아침 AI 뉴스 3개를 골라 요약해서 카카오톡으로 전송 | Python, Gemini, GitHub Actions, Kakao API |
 | [hacktoberfest-pomodoro](https://github.com/liuzhiyuan011215-cmyk/hacktoberfest-pomodoro) | 뽀모도로 + 할 일 관리 (MLH Global Hack Week 참가작) | HTML, CSS, JavaScript |
+| [valorant-translator](https://github.com/liuzhiyuan011215-cmyk/valorant-translator) | 게임 중 팀원 음성 → 실시간 중국어 이중 자막, F8 누르고 말하면 영어/한국어로 번역 | Python, Gemini Live API, VB-Cable, 오버레이 UI |
 
 ### 4. 수업 과제 결과물
 | 프로젝트 | 과제 | 배포 |
