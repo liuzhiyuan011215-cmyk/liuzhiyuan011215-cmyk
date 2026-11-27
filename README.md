@@ -12,10 +12,10 @@
 
 | 직무에서 필요한 역량 | 이를 보여주는 프로젝트 |
 |---|---|
-| 협업·오픈소스 기여 | DouDuo [PR #3](https://github.com/81199000/DouDuo/pull/3)·[PR #5](https://github.com/81199000/DouDuo/pull/5) 원작자 병합, [campuse_place PR #2](https://github.com/skyhy0228/campuse_place/pull/2) 팀 프로젝트 기여 |
 | LLM을 서비스에 붙이고 **환각을 검증**하는 설계 | [CardMaker](https://github.com/liuzhiyuan011215-cmyk/CardMaker) (사전 대조 검증), [report2excel](https://github.com/liuzhiyuan011215-cmyk/report2excel) (금액 재계산·단가 이상 탐지) |
 | **실시간 음성** AI (스트리밍, 재연결) | [valorant-translator](https://github.com/liuzhiyuan011215-cmyk/valorant-translator), [translator-ultimate](https://github.com/liuzhiyuan011215-cmyk/translator-ultimate), [live-translate](https://github.com/liuzhiyuan011215-cmyk/live-translate) |
 | 데이터 정제·정규화 | [knut-campus-guide](https://github.com/liuzhiyuan011215-cmyk/knut-campus-guide) (250건 → 178곳, 합계 검증) |
+| 협업·오픈소스 기여 | DouDuo [PR #3](https://github.com/81199000/DouDuo/pull/3)·[PR #5](https://github.com/81199000/DouDuo/pull/5) 원작자 병합, [campuse_place PR #2](https://github.com/skyhy0228/campuse_place/pull/2) 팀 프로젝트 기여 |
 | 자동화·배포 (GitHub Actions / Pages) | [ai-briefing](https://github.com/liuzhiyuan011215-cmyk/ai-briefing), 웹 프로젝트·과제 5건 Pages 배포 |
 | 테스트로 품질 보증 | CardMaker **pytest 238개** (API Key 없이 실행 가능) |
 
@@ -25,7 +25,7 @@
 - **AI / API**: Google Gemini (Live API 포함) · 알리바바 DashScope(Qwen) · Groq Whisper · 멀티모달 LLM OCR
 - **데스크톱 / 데이터**: PySide6 · SQLite · PyMuPDF · RapidOCR · openpyxl · AnkiConnect
 - **품질 / 배포**: pytest · Git · GitHub Actions · GitHub Pages
-- **AI 협업 개발**: Claude Code 등 AI 코딩 도구로 구현하고, **설계·테스트·실사용 검증은 직접** 합니다. AI가 쓴 커밋은 `(AI)` 표시로 구분합니다.
+- **AI 협업 개발**: Claude Code 등 AI 코딩 도구로 구현하고, **설계·테스트·실사용 검증은 직접** 합니다. 대표작 CardMaker는 심사 면담 이후 수정부터 AI가 도운 커밋을 `(AI)`로 표시해 구분했습니다.
 
 ---
 
@@ -42,7 +42,7 @@
 
 ---
 
-## 📂 프로젝트 목록
+## 📂 프로젝트 목록 (총 13개 · 프로필 저장소 제외)
 
 ### 1. 캡스톤디자인
 | 프로젝트 | 내용 | 기술 |
